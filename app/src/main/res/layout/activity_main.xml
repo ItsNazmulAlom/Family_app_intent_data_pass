@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_father"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_color"
+        android:padding="20dp"
+        android:text="Father"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_mother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_color"
+        android:padding="20dp"
+        android:text="Mother"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_brother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_color"
+        android:padding="20dp"
+        android:text="Brother"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_sister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_color"
+        android:padding="20dp"
+        android:text="Sister"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
